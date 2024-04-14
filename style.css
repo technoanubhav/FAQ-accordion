@@ -101,3 +101,31 @@ header {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    background: url(./assets/images/background-pattern-desktop.svg);
+    background-color: var(--lightPink);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    background: url(./assets/images/background-pattern-desktop.svg);
+    background-color: var(--lightPink);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 90%;
+  }
+}
